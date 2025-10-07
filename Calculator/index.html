@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Professional Calculator </title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <!-- Header of the project level1 -->
+  <header class="header">
+    <h1>Professional Calculator</h1>
+    <p>Calculate something below</p> 
+    <p> "Every number counts,every calculations builds your victory!"</p>
+    <button id="themeBtn">Switch Theme</button>
+    <button id="infoBtn">How it works?</button>
+  </header>
+  <!-- Calculator buttons -->
+  <main>
+    <div class="calculator">
+      <div class="display" id="display">0</div>
+      <div class="buttons">
+        <button class="btn control" data-value="C">C</button>
+        <button class="btn control" data-value="⌫">⌫</button>
+        <button class="btn operator" data-value="/">÷</button>
+        <button class="btn operator" data-value="*">×</button>
+        <button class="btn" data-value="7">7</button>
+        <button class="btn" data-value="8">8</button>
+        <button class="btn" data-value="9">9</button>
+        <button class="btn operator" data-value="-">−</button>
+        <button class="btn" data-value="4">4</button>
+        <button class="btn" data-value="5">5</button>
+        <button class="btn" data-value="6">6</button>
+        <button class="btn operator" data-value="+">+</button>
+        <button class="btn" data-value="1">1</button>
+        <button class="btn" data-value="2">2</button>
+        <button class="btn" data-value="3">3</button>
+          <button class="btn" data-value="%">%</button>
+         <button class="btn" data-value=".">.</button>
+        <button class="btn zero" data-value="0">0</button>
+         <button class="btn equal" data-value="=">=</button>
+      </div>
+    </div>
+  </main>
+  <!-- Footer about the developer  -->
+  <footer class="footer">
+    <p>Connect with me:</p>
+    <a href="https://in.linkedin.com/in/anjalikasaragod" target="_blank">LinkedIn</a> |
+    <a href="https://www.instagram.com/anjalivkasaragod_official/?hl=en" target="_blank">Instagram</a> 
+  </footer>
+  <!-- info about Modal -->
+  <div id="infoModal" class="modal">
+    <div class="modal-content">
+      <span class="close">&times;</span>
+      <h2>How It Works</h2>
+      <p>This calculator is built with HTML, CSS, and JavaScript.</p>
+      <ul>
+        <li>Click any buttons to input numbers and operators.</li>
+        <li>Click <strong>=</strong> to calculate the result.</li>
+        <li>Click <strong>C</strong> to clear input or <strong>⌫</strong> to delete the last character.</li>
+        <li>Rapid button presses create a combo glow effect.</li>
+        <li>Results trigger particle animations.</li>
+        <li>Use the theme button to switch between neon dark and light mode.</li>
+      </ul>
+    </div>
+  </div>
+<script src="script.js"></script>
+</body>
+</html>
